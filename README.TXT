@@ -23,7 +23,7 @@ PART III
 
 49. For the boolean expression, I simply interchanged the "amount" and "0" (0 > amount). 
 50. It was for the diameter of the circle. It was well suited because the diameter of a circle cannot be less than 0, so if it was, the operation wouldn't work. 
-51. 
+
 52.It is possible, but nothing will be printed if you try to print a ticket without inserting any money.
 53. No, because you won't be able to purchase a ticket if the amount in the balance isn't enough. Therefore, the value of the balance can never be negative.
 
@@ -47,7 +47,7 @@ PART III
 60. It sends the error message "unreachable statement under the "balance = 0;". Because we would lose the value in balance.
 61. Instead of just "price" this constructor says "int price". The "int price" field doesn't give the price of a ticket anymore.
 
-63.
-64.
+64. A field (private int discount), a "setDiscount" method(public void setDiscount(int amount)), and the assignment statement would be "discount = price - amount; price = discount;". There wouldn't be a need to change any other methods from the code.
+
 
 
